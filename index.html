@@ -7,8 +7,12 @@
 </head>
 
 <body>
-    <button><a class="nohp" href="images.html">Google Images Search</a></button>
-    <button><a class="nohp" href="advanced.html">Google Advanced Search</a></button>
+    <div>
+        <button class="toplink"><a href="images.html">Google Images Search</a></button>
+        <button class="toplink"><a href="advanced.html">Google Advanced Search</a></button>
+    </div>
+
+    <img src="googlelogo.jpg">
     
     <form action="https://google.com/search">
         <input type="text" name="q">
@@ -16,10 +20,10 @@
     </form>
 
     <form action="https://google.com/search">
-        <input type="text" name="q">
-        <input name="btnI" type="hidden">
-        <input type="submit" value="I'm Feeling Lucky">
+        <input type="hidden" name="q">
+        <input type="submit" name="btnI" value="I'm Feeling Lucky">
     </form>
+
 
 </body>
 
