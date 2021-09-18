@@ -12,30 +12,52 @@
 
         <img id="smalllogo" src="googlelogo.jpg">
 
-        <h3>Advanced Search</h3>
-
-        <p>Find pages with...</p>
+        <h2>Advanced Search</h2>        
+        <hr class="solid">
 
         <div class="div2">
-            <form action="https://google.com/search">
-                <input type="text" name="as_q">
-                <input type="submit" value="Find pages with all these words:">
-            </form>
-    
-            <form action="https://google.com/search">
-                <input type="text" name="as_epq">
-                <input type="submit" value="Find pages with this exact word or phrase">
-            </form>
-    
-            <form action="https://google.com/search">
-                <input type="text" name="as_oq">
-                <input type="submit" value="Find pages with any of these words">
-            </form>
-    
-            <form action="https://google.com/search">
-                <input type="text" name="as_eq">
-                <input type="submit" value="Find pages with none of these words:">
-            </form>
+            <table class="text-input-table">
+				<tr><td><h3>Find pages with...</h3></td></tr>	
+
+                <tr>
+                    <td>all these words:</td>
+                    <td><form action="https://google.com/search">
+                        <input type="text" name="as_q" class="searchbar">
+                    </form></td>
+                </tr>
+
+                <tr>
+                    <td>this exact word or phrase:</td>
+                    <td>
+                        <form action="https://google.com/search">
+                            <input type="text" name="as_q"class="searchbar">
+                        </form>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>any of these words</td>
+                    <td>
+                        <form action="https://google.com/search">
+                            <input type="text" name="as_q" class="searchbar"></p>
+                        </form>        
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>none of these words:</td>
+                    <td>
+                        <form action="https://google.com/search">
+                            <input type="text" name="as_q"class="searchbar">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Advanced Search" color="blue" class="search"></td>
+                </tr>
+        </table>
+
         </div>
     </body>
 </html>

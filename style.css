@@ -12,10 +12,17 @@ img{
     margin-top:5px;
 }
 
-h3{
-    color:salmon;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+h2{
+    color:#E33E3E;
+	font-family:Arial, san-serif;
     margin-top: 80px;
+    font-weight: normal;
+    margin-left: 30px;
+}
+
+h3{
+    font-weight:normal;
+    font-size:large;
 }
 
 a{
@@ -23,10 +30,43 @@ a{
 }
 
 div {
+    font-family:Arial, san-serif;
     text-align:right;
+    margin-left:30px;
 }
 
 .div2{
-    margin-top:80px;
+    font-family: Arial, san-serif;
+    margin-top:30px;
     text-align:left;
+    margin-left:30px;
+}
+
+.search {
+    background-color:#007CFF;
+    color: white;
+    outline:#001E6C;
+    border-style: none;
+    margin: 11px 4px;
+    padding: 4px 10px;
+	font-family: Futura, Trebuchet MS, Arial, san-serif;
+    border-top-left-radius:2px;  
+    border-top-right-radius:2px;  
+    border-bottom-right-radius:2px;  
+    border-bottom-left-radius:2px; 
+    float:right;
+  }
+
+/* Solid border */
+hr.solid {
+    border-top: 1px solid #E1E1E1;
+  }
+
+.searchbar{
+    width:500px;
+    height:20px;
+}
+
+table{
+    font-size:12px;
 }
