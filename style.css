@@ -67,6 +67,23 @@ hr.solid {
     height:20px;
 }
 
+.bigsearchbar{
+    width:500px;
+    height:30px;
+    border-radius: 50px;  
+}
+
 table{
     font-size:12px;
+}
+
+.searchbutton{
+    background-color:#ECECEC;
+    margin: 11px 4px;
+    padding: 8px 20px;
+    border-style: none;
+    border-top-left-radius:5px;  
+    border-top-right-radius:5px;  
+    border-bottom-right-radius:5px;  
+    border-bottom-left-radius:5px; 
 }
